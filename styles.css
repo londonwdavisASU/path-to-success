@@ -1,0 +1,298 @@
+/* CSS BY London Davis */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS REST */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+
+
+/* ROOT VARIABLES */
+:root{
+    --Teal :#4CA7C0;
+    --Purple: #484FB7;
+    --Lavender: #6B8FE7;
+    --Yellow: #E9BB57; 
+    --Pink:#D9526F;
+    --Dark-gray:#1E1E1E; 
+    --White:#ffffff; 
+}
+
+
+
+/* GLOBAL STYLES (mobile first/small) */
+body {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+* {
+    font-family: inter;
+}
+
+
+/*Assignment Styles*/
+h1 {
+font-size: 3em;
+color: var(--White);
+}
+
+H1, H2 {
+font-family: kavoon;
+}
+
+nav, h2 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    
+}
+
+h4 {
+    font-size: 1.15em;
+}
+
+
+
+/*Free Hand Styles*/
+body{
+    background-color:var(--Purple);
+}
+
+h3 {
+    color: var(--Yellow);
+}
+
+h2 {
+    color: var(--White);
+    margin-top: 1em;
+}
+
+h4 {
+    color:var(--Purple);
+}
+
+li {
+    display:inline-block;
+}
+
+i {
+    color: var(--White);
+}
+
+/*Sections*/
+#personalized-approach {
+    background-color: var(--Teal);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+#our-services section {
+    background-color: var(--White);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+/* why-choose-us table and section*/
+#why-choose-us {
+    background-color: var(--Pink);
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: .5em;
+    max-width: 450px;
+    margin: 1rem auto;
+}
+
+#why-choose-us h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: white;
+}
+
+#why-choose-us ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+#why-choose-us li {
+    padding: 1.5em;
+    text-align: center;
+    border-radius: 1em;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.teal { 
+    background-color: var(--Teal);
+}
+
+.blue { 
+    background-color: var(--Lavender);
+}
+
+.yellow { 
+    background-color: var(--Yellow);
+}
+
+.white { 
+    background-color: var(--White);
+}
+
+/* Table Styling */
+table {
+    margin: 0 auto; 
+    background-color: var(--White);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+tr:first-child {
+    background-color: var(--Yellow); 
+}
+
+th, td {
+    padding: 1em;
+    text-align: left;
+    border: 1px solid var(--Yellow); 
+}
+
+/*Header Styles*/
+
+header {
+    background-color: var(--Lavender);
+}
+
+i {
+    background-color: var(--Pink);
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    padding: .5em;
+    padding-bottom: .5em;
+    padding-top: 2em;
+    margin-left: .3em;
+}
+
+
+
+header {
+    padding-top: 1em;
+    padding-bottom: .5em;
+    text-align: center;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    position: relative;
+}
+
+
+nav {
+    background-color: var(--Yellow);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: .4em;
+}
+
+h1 {
+    margin: .4em;
+}
+
+/*Footer Styles*/
+
+footer h2 {
+    text-align: center;
+    margin-bottom: .2em;
+    padding-top: .5em;
+}
+
+footer {
+    background-color: var(--Pink);
+    margin-bottom: 2em;
+    border-bottom-left-radius: 4em;
+    border-bottom-right-radius: 4em;
+    color: var(--White);
+}
+
+footer p{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#button {
+    text-align: center;
+    background-color: var(--White);
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 1em;
+    max-width: 50%;
+    margin: 0 auto; 
+    box-shadow: 6px 6px 8px var(--Dark-gray);
+}
+
+#copyright {
+    text-align: center;
+    font-weight: 300;
+    background-color: var(--Lavender);
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    padding: .5em;
+    padding-bottom: .5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 0 auto; 
+    margin-top: .5em;
+}
